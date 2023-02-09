@@ -225,3 +225,4 @@ i. Weak ii. Soft iii. Phantom iv. Strong
 https://proandroiddev.com/everything-you-need-to-know-about-memory-leaks-in-android-d7a59faaf46a
 https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83
 https://medium.com/flobiz-blog/garbage-collector-an-android-story-9bebea9d44d9
+https://github.com/yasinkacmaz/jetflix.git
