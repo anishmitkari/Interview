@@ -67,10 +67,14 @@ b. If a service is bound by 2 components and if 1 of them is destroyed, would it
 9. Explain different methods of AsyncTask, Can you create your own async task?
 10. Where you'll use bind services and where Normal Service
 11. If due to some reason your service is destroyed and you want to resume your work, how you'll do that?
-.
-kotlin
-
 Q:12,13,14,15.... so many based on Kotlin only
+
+kotlin
+1. What is lifecycle of a service when user rotates device ( for all types of services foreground, bounded seevices )
+2. What happens if we launch intent service multiple times?
+3. How to communicate between intent service and activity?
+4. How to stop intent service if it is in running state?
+5. Why asyncTask is deprecated? What are issues with asynctask and why can’t we use loaders?
 
 a. Difference between Normal class and data class
 b. What are sealed classes
@@ -90,6 +94,22 @@ m. how to concat two strings ?
 n. What are extension functions and how does it look like when we convert them into byte code.
 o. What is 'When' keyword in java, Where it is used?
 p. Difference between lateinit and lazy loading.
+1. Difference between declarations of function at package level and in companion object ?
+2. Scope of sealed classes
+3. While creating data classes why one parameter is mandatory to pass in constructor.
+1. What is Nothing type in Kotlin? When should it be used?
+2. What are reified/in/out keywords?
+3. When accessing some kotlin properties from java, you have to use getters/setters. How can we avoid that?
+4. Can you give companion objects a different name?
+Why cons val can only be used in companion object (or object)?
+Why only primitives can be const?
+What do you mean by open keyword, what is Null safety in Kotlin, Double Bang opertor
+
+
+
+
+
+
 
 
 If you've answers of above questions, 99% are chances you'll clear your Kotlin round for sure. Before your next interview brush-up your skills and you're good to go.
