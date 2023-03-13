@@ -8,44 +8,36 @@ for memory leak?
 How weak references help in avoiding memory leaks?
 
 LIFECYCLE
-Q11: Life Cycle of Activity and Fragment ?
+Life Cycle of Activity and Fragment ?
 
+When activity A is opened -> It's life cycle
+When another activity is opened, life cycle of previous and current activity.
+When you press back button on Activity B -> then life cycle of Activity B and Activity A in sequence.
+What will happend when you call finish() in onCreate
 
-a. When activity A is opened -> It's life cycle
-
-b. When another activity is opened, life cycle of previous and current activity.
-
-c. When you press back button on Activity B -> then life cycle of Activity B and Activity A in sequence.
-
-d. What will happend when you call finish() in onCreate
-
-e. Life cycle of a fragment:
+Life cycle of a fragment:
 i. When A fragment is opened -> life cycle
 ii. When B fragment is opened -> life cycle of A and B both fragment.
 iii. When B is destroyed sequence life cycle of B and A Fragment
 
-f. Sequential methods calling of activity and fragment during life cycle
+Difference between add() and replace() method of a fragment
 
-g. Difference between add() and replace() method of a fragment
-
-h. when onSaveInstance() is called?
-
-i. When you show dialog on a fragment/activity which lifecycle method will be called?
-
-j. When you get a call on your phone which life cycle method will be called?
+ when onSaveInstance() is called?
+ When you show dialog on a fragment/activity which lifecycle method will be called?
+ When you get a call on your phone which life cycle method will be called?
 
 Based on #broadcastreceiver)
 
-1. How many types of broadcast receiver we have in android:
-a. Local -> use only when broadcast is used only inside same process.
-b. Normal -> use sendBroadcast(), Asynchronous broadcast.
-c. Ordered -> use sendOrderedBroadcast(), synchronous broadcast.
-d. Sticky -> normal broadcast intent is not available any more after this was send and processed by the system. use sendStickyBroadcast(Intent)
+ How many types of broadcast receiver we have in android:
+ Local -> use only when broadcast is used only inside same process.
+Normal -> use sendBroadcast(), Asynchronous broadcast.
+Ordered -> use sendOrderedBroadcast(), synchronous broadcast.
+Sticky -> normal broadcast intent is not available any more after this was send and processed by the system. use sendStickyBroadcast(Intent)
 
 
-2. Do you know that local broadcast receiver is deprecated?
-a. Alternate for the same?
-b. What would you use and how would you communicate between Services and Activities/Fragments now?
+Do you know that local broadcast receiver is deprecated?
+Alternate for the same?
+What would you use and how would you communicate between Services and Activities/Fragments now?
 
 3. Example of Sticky broadcast receiver?
 
@@ -105,36 +97,9 @@ Why cons val can only be used in companion object (or object)?
 Why only primitives can be const?
 What do you mean by open keyword, what is Null safety in Kotlin, Double Bang opertor
 
-
-
-
-
-
-
-
 If you've answers of above questions, 99% are chances you'll clear your Kotlin round for sure. Before your next interview brush-up your skills and you're good to go.
 
 Feel free to like, comment and share this post with your connection so it would also help them in clearing their interviews rounds.
-
-
-
-Q11: Life Cycle of Activity and Fragment ?
-
-
-a. When activity A is opened -> It's life cycle
-
-b. When another activity is opened, life cycle of previous and current activity.
-
-c. When you press back button on Activity B -> then life cycle of Activity B and Activity A in sequence.
-
-d. What will happend when you call finish() in onCreate
-
-e. Life cycle of a fragment:
-i. When A fragment is opened -> life cycle
-ii. When B fragment is opened -> life cycle of A and B both fragment.
-iii. When B is destroyed sequence life cycle of B and A Fragment
-
-f. Sequential methods calling of activity and fragment during life cycle
 
 g. Difference between add() and replace() method of a fragment
 
@@ -144,11 +109,8 @@ i. When you show dialog on a fragment/activity which lifecycle method will be ca
 
 j. When you get a call on your phone which life cycle method will be called?
 
-
-Q7: Difference between concurrency and parallelism?
-
+Difference between concurrency and parallelism?
 With the popularity of coroutines this question is also asked in almost every interview(9/10).
-
 it's not a 2 or 5 marks question where you can escape by telling only the differences between them. interviewer wants to know How deep you can go depending upon your experiences.
 
 If you don't know the depth don't worry I'm here to help.
@@ -166,7 +128,6 @@ List Of followup questions:
 10. Why Performance overhead if we create so many threads ?
 goes on.....
 
-
 Question3: This is very important question asked in every android dev interview.
 a. Internal working of viewmodel and how it survives configuration changes but not onBackPress()
 b. How would you decide Which data you should store in fragment/activity and which one in viewmodel? -> this is important because android os may clean up the resources of viewmodel due to less memory.
@@ -175,20 +136,15 @@ https://write.agrevolution.in/view-model-and-how-it-works-internally-88295e8598e
 
 https://medium.com/@ianhlake/you-are-correct-the-viewmodel-is-destroyed-if-your-process-is-killed-by-android-ef611fcd51e6
 
- Life cycle of a View
-
+Life cycle of a View
 People usually read about lifecycle of activity , fragment but many #androiddevs don't know about view's lifecycle which is crucial and quite important from performance perspective as well. if Ui is designed carefully it'll boost the performance of your application for sure.
 
 https://proandroiddev.com/the-life-cycle-of-a-view-in-android-6a2c4665b95e
-
 Question1: Is commit() in the fragment is synchronised ?
-
 Read about: Differences between commit(), commitNow() and
 commitAllowingStateLoss()
 
 https://stackoverflow.com/questions/1392351/java-reflection-why-is-it-so-slow
-
-
 1. What is content provider? Why it is used?
 2. In which process it is run?
 3. Difference between content-provider and content-resolver.
@@ -196,15 +152,10 @@ https://stackoverflow.com/questions/1392351/java-reflection-why-is-it-so-slow
 5. If you’ll have to access application context in content provider, How to do that?
 
 5th question is extremely important, who hasn’t used content provider they can’t answer. Comment below who knows the answer of it.
-
 https://stackoverflow.com/questions/21980641/understanding-androidlaunchmode
-
 https://stackoverflow.com/questions/45546595/android-clean-architecture
-
 https://stackoverflow.com/questions/31761351/difference-between-thread-and-handler
-
 https://stackoverflow.com/questions/5919865/difference-between-intent-and-intenfilter-in-android#:~:text=An%20intent%20is%20an%20object%20that%20can%20hold%20the%20os,os%20or%20other%20app%20activities.
-
 Q4: if your design round is coming up
 “Design analytics library” should be your first priority.
 
@@ -214,31 +165,23 @@ Make sure you ask/include following points while designing any analytics library
 
 1. Priorities of events: Immediate/Medium/Low
 2. Offline support- if network is not available or events failed during network call
-3. Maximum memory allocation for offline support(ex. If you’ve events stored for 5 days and still couldn’t reach to server due to any reason, should we remove those events or not from local storage)
+3. Maximum memory allocation for offline support(ex. If you’ve events stored for 5 days and still couldn’t reach to server due to any reason, should we remove those      events or not from local storage)
 4. Retry whenever network comes
 5. Batch size define based in network type(2g,3g,4g, wifi).
 6. Url configurations: should we keep url fixed or user should defined
 7. Overloaded function for passing single event/multiple events
 8.Implement abstraction- in future you might have to change analytics library.
-9. Library support for current project or multiple?
-10. Retry network call or change in batch size if api fails.
-
+9.Library support for current project or multiple?
+10.Retry network call or change in batch size if api fails.
 Q6: Design Image loading library like Glide in android
-
 From this question #interviewer will check how well do you know about.
-
 a. Memory leaking-> because glide hold the reference of images/context(If activity or fragment is destroyed after that your bitmap is downloaded and then if library try to set bitmap in your image). You can read more on:
 i. Causes for memory leaking
 ii How to avoid memory leak.
-
 b. Garbage collector -> in which thread it runs(another interview question)
-
 c. Your design knowledge: You can read about java design patterns.
-
 d. LRU cache (VV IMP) -> LinkedHashMap is used internally and used on so many places. Must read, Very interesting also. I can't even describe here the benefits of LRU cache and LinkedHashMap.
-
 e. Disk cache, Thread pool(if 1000 images need to download in parallel) , Executor service, Handle duplicate request for same image:
-
 f. Types of references android has: (Really helpful in avoiding memory leak)
 i. Weak ii. Soft iii. Phantom iv. Strong
 
