@@ -190,3 +190,4 @@ https://medium.com/google-developer-experts/finally-understanding-how-references
 https://medium.com/flobiz-blog/garbage-collector-an-android-story-9bebea9d44d9
 https://github.com/yasinkacmaz/jetflix.git
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes
+https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture
