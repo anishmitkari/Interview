@@ -196,17 +196,18 @@ https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture
 Android Development Interview Preparation:
 
 
-- https://lnkd.in/dZMD3sRu
-- https://lnkd.in/d7fPu87P
-https://github.com/anitaa1990/Today-I-Learned
+- https://lnkd.in/dZMD3sRu   (vamsitallpudi)
+- https://lnkd.in/d7fPu87P    (DS AND android QUESTIONS ONLY)
+https://github.com/anitaa1990/Today-I-Learned  (SOLID PRINCIPLES)
+https://blog.mindorks.com/mastering-design-patterns-in-android-with-kotlin/        (Design patterns)
 https://github.com/niharika2810/Android-Cheat-sheet
 https://lnkd.in/dZMD3sRu
 https://lnkd.in/d7fPu87P
 https://github.com/anitaa1990/Today-I-Learned
 https://github.com/niharika2810/Android-Cheat-sheet
-https://github.com/Kirchhoff-/Android-Interview-Questions
-https://github.com/javadhme/android-interview-questions
-https://github.com/anandwana001/android-interview
+https://github.com/Kirchhoff-/Android-Interview-Questions                           (Testing notes)
+https://github.com/javadhme/android-interview-questions                              (JAVA QUESTION ONLY)
+https://github.com/anandwana001/android-interview                                          (QUESTIONS ONLY) 
 https://github.com/mohsenoid/Android-Interview-Questions
 https://github.com/siddhpatil6/AndroidInterview-Questions
 https://github.com/chekeAditya/Android-Interview-Question/tree/main/Top%2010%20sites%20for%20Careers
