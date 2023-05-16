@@ -10,7 +10,7 @@ How weak references help in avoiding memory leaks?
 LIFECYCLE
 Life Cycle of Activity and Fragment ?
 
-When activity A is opened -> It's life cycle
+When activity A is opened -> It's life cycle 
 When another activity is opened, life cycle of previous and current activity.
 When you press back button on Activity B -> then life cycle of Activity B and Activity A in sequence.
 What will happend when you call finish() in onCreate
@@ -50,12 +50,12 @@ https://stackoverflow.com/questions/61484995/localbroadcastmanager-has-been-depr
 2.Difference between services and thread?
 3.Intent service is deprecated , What is the alternate for it?
 4. What is bind service?
-a. Can a service be bind with multiple components?
+a. Can a service be bind with multiple components? YES
 b. If a service is bound by 2 components and if 1 of them is destroyed, would it also be destroyed?
 5. In which case you'll use service and in which case you'll use thread?
 6. In which thread service executes/run? and in which thread intent service executes/run?
 7. What is Foreground service? eg. Above Oreo a notification bar is shown, if your app is in background and you want to perform some background operations
-8. If you'll have to download 1000 of images, what you'll use?
+8. If you'll have to download 1000 of images, what you'll use?  JOB SCHEDULER
 9. Explain different methods of AsyncTask, Can you create your own async task?
 10. Where you'll use bind services and where Normal Service
 11. If due to some reason your service is destroyed and you want to resume your work, how you'll do that?
@@ -191,7 +191,7 @@ https://medium.com/flobiz-blog/garbage-collector-an-android-story-9bebea9d44d9
 https://github.com/yasinkacmaz/jetflix.git
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes
 https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture
-
+ 
 
 Android Development Interview Preparation:
 
