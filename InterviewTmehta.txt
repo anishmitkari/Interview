@@ -194,7 +194,9 @@ https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture
  
 
 Android Development Interview Preparation:
+https://github.com/probelalkhan/spend-tracker/blob/master/app/build.gradle          testing exampleproject
 
+https://gist.github.com/albinmathew   proguard rules
 
 - https://lnkd.in/dZMD3sRu   (vamsitallpudi)
 - https://lnkd.in/d7fPu87P    (DS AND android QUESTIONS ONLY)
