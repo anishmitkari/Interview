@@ -219,3 +219,4 @@ https://github.com/siddhpatil6/AndroidInterview-Questions
 https://github.com/chekeAditya/Android-Interview-Question/tree/main/Top%2010%20sites%20for%20Careers
 https://github.com/AnneJ17/android-cheat-sheet
 https://github.com/GuillemPejo/GUIDE_ANDROID_INTERVIEWS
+https://levelup.gitconnected.com/android-interview-prep-in-2023-part-1-40e38b2531b
