@@ -220,3 +220,4 @@ https://github.com/chekeAditya/Android-Interview-Question/tree/main/Top%2010%20s
 https://github.com/AnneJ17/android-cheat-sheet
 https://github.com/GuillemPejo/GUIDE_ANDROID_INTERVIEWS
 https://levelup.gitconnected.com/android-interview-prep-in-2023-part-1-40e38b2531b
+https://medium.com/android-news/android-interview-questions-cheat-sheet-96ea01c88def
