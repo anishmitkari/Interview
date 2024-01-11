@@ -184,7 +184,7 @@ d. LRU cache (VV IMP) -> LinkedHashMap is used internally and used on so many pl
 e. Disk cache, Thread pool(if 1000 images need to download in parallel) , Executor service, Handle duplicate request for same image:
 f. Types of references android has: (Really helpful in avoiding memory leak)
 i. Weak ii. Soft iii. Phantom iv. Strong
-
+https://ishanvohra2.medium.com/hls-video-streaming-using-exoplayer-on-android-a146d9a09be7 (HLS streaming exoplayer)
 
 Roadmap
 https://whimsical.com/android-roadmap-by-azeem-siddiqui-thecodingshef-KhQRaSRga1AwCvFB1rsat7       (Roadmap image)
