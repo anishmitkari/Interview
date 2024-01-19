@@ -223,3 +223,4 @@ https://github.com/GuillemPejo/GUIDE_ANDROID_INTERVIEWS
 https://levelup.gitconnected.com/android-interview-prep-in-2023-part-1-40e38b2531b
 https://medium.com/android-news/android-interview-questions-cheat-sheet-96ea01c88def
 https://github.com/firozanawar/android-interview-questions-by-firoz
+https://github.com/Devinterview-io/kotlin-interview-questions  (git flutter swift interview list also in thos page)
