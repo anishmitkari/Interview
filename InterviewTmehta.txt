@@ -195,7 +195,7 @@ https://github.com/yasinkacmaz/jetflix.git
 https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes
 https://github.com/ahmedeltaher/MVVM-Kotlin-Android-Architecture
  
-
+https://tanya-anand.medium.com/starting-with-hilt-91d66ff1e1f (Android hilt understanding example)
 Android Development Interview Preparation:
 https://medium.com/@anitaa_1990
 https://github.com/probelalkhan/spend-tracker/blob/master/app/build.gradle          testing exampleproject
