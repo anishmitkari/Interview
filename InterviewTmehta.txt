@@ -224,3 +224,7 @@ https://levelup.gitconnected.com/android-interview-prep-in-2023-part-1-40e38b253
 https://medium.com/android-news/android-interview-questions-cheat-sheet-96ea01c88def
 https://github.com/firozanawar/android-interview-questions-by-firoz
 https://github.com/Devinterview-io/kotlin-interview-questions  (git flutter swift interview list also in thos page)
+ahmedeltaher
+/
+GitHubActionsAutomationSandbox  CI CD check
+https://github.com/AhmedOmara14/Clean-Architecture-App-MVVM-Use-Cases-Compose-room-unittesting
